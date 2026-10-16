@@ -31,7 +31,9 @@ Python · Pytest · Selenium WebDriver · PyCharm · Git · GitHub
 
 ## Test Evidence
 
-#### Video of Urban Routes test automation 
+#### Video Demonstration — Full automation Taxi Booking Flow
+The video below demonstrates the automated execution of the complete Urban Routes booking journey. It verifies that form field submissions, credit card payment addition, SMS verification code handling, and driver search modals load smoothly without breaking the user experience.
+
 https://github.com/user-attachments/assets/16359309-0d3b-453c-99aa-5c1513be58a4
 
 
