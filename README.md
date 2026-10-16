@@ -21,10 +21,13 @@ Automating this complex flow mitigates business risks by validating critical UI 
 
 Python · Pytest · Selenium WebDriver · PyCharm · Git · GitHub
 
-## Results and Learnings
+## Results 
 
 - **100% Test Pass Rate:** Successfully automated and validated the entire end-to-end taxi booking flow in Urban Routes, including location setup, Comfort fare selection, driver messaging, and item requests.
 - *Code Reliability:* Achieved clean test execution using the Page Object Model (POM) pattern, ensuring reusable and scalable UI/API automation scripts
+
+ ## Learnings
+ 
 - Learned to handle dynamic UI elements such as modals and countdown timers in Selenium.
 - Learned to design test automation strategies focused on high-risk, user-critical business paths.
 - Practiced version control workflow by committing and pushing a complete project to GitHub
