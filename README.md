@@ -27,7 +27,9 @@ Python · Pytest · Selenium WebDriver · PyCharm · Git · GitHub
 
 ## Test Evidence
 
-[Video of Urban Routes test automation](https://www.loom.com/share/32db248eddb34a5ab5a7212dc213644b)
+[Video of Urban Routes test automation](https://github.com/user-attachments/assets/16359309-0d3b-453c-99aa-5c1513be58a4)
+
+
 
 --------------------------------------------------------------------------------
 # Instructions on how to run the tests
