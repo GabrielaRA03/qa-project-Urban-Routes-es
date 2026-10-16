@@ -2,18 +2,20 @@
 
 ## Objective
 
-To automate end-to-end testing of the Urban Routes ride-hailing application, ensuring the complete taxi booking flow works correctly through UI automation.
+To automate end-to-end testing of the Urban Routes ride-hailing application, ensuring the reliability of the core taxi booking flow through UI automation and safeguarding critical business interactions from regression errors.
 
 ## Defining the problem
 
-Manual testing of multi-step user flows is time-consuming and prone to human error. Urban Routes required automated tests to validate a complex booking process involving multiple UI interactions across different form fields, modals, and dynamic content.
+Manual testing of multi-step booking flows is time-consuming, repetitive, and susceptible to human oversight. In a ride-hailing platform like Urban Routes, any disruption during address selection, payment authorization, or driver assignment directly impacts user conversion and retention. 
+
+Automating this complex flow mitigates business risks by validating critical UI components, dynamic countdown timers, modal overlays, and form submissions in seconds.
 
 ## What I Did
 
-- *Built an automated test suite covering the full taxi booking flow:* verified setting pickup and dropoff addresses, selecting the Comfort fare, entering a phone number, adding a credit card as a payment method, writing a message to the driver, requesting additional items (blanket, tissues, ice cream), confirming that the taxi assignment modal and driver information loaded correctly upon booking completion.
-- Defined locators and methods using the Page Object Model pattern to keep the code organized and reusable.
-- Verified that the driver search modal appeared correctly and that driver information loaded upon booking completion.
-- Pushed the project to a GitHub repository and wrote a README with project description, technologies used, and instructions to run the tests.
+- Built an automated test suite covering the full booking lifecycle: address setup, Comfort fare selection, phone number entry, credit card binding, driver messaging, and add-on requests (blanket, tissues, ice cream).
+- Applied the POM design pattern to separate test logic from page locators, improving script maintainability and code reusability.
+- Implemented explicit waits to manage dynamic UI elements, such as authorization SMS timers and driver search modal popups.
+- Managed project iterations using Git/GitHub workflow.
 
 ## Technologies Used
 
@@ -24,6 +26,7 @@ Python · Pytest · Selenium WebDriver · PyCharm · Git · GitHub
 - **100% Test Pass Rate:** Successfully automated and validated the entire end-to-end taxi booking flow in Urban Routes, including location setup, Comfort fare selection, driver messaging, and item requests.
 - *Code Reliability:* Achieved clean test execution using the Page Object Model (POM) pattern, ensuring reusable and scalable UI/API automation scripts
 - Learned to handle dynamic UI elements such as modals and countdown timers in Selenium.
+- Learned to design test automation strategies focused on high-risk, user-critical business paths.
 - Practiced version control workflow by committing and pushing a complete project to GitHub
 
 ## Test Evidence
