@@ -21,7 +21,8 @@ Python · Pytest · Selenium WebDriver · PyCharm · Git · GitHub
 
 ## Results and Learnings
 
-- Gained hands-on experience structuring automated tests using Page Object Model.
+- **100% Test Pass Rate:** Successfully automated and validated the entire end-to-end taxi booking flow in Urban Routes, including location setup, Comfort fare selection, driver messaging, and item requests.
+- *Code Reliability:* Achieved clean test execution using the Page Object Model (POM) pattern, ensuring reusable and scalable UI/API automation scripts
 - Learned to handle dynamic UI elements such as modals and countdown timers in Selenium.
 - Practiced version control workflow by committing and pushing a complete project to GitHub
 
