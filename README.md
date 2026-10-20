@@ -32,6 +32,15 @@ Python · Pytest · Selenium WebDriver · PyCharm · Git · GitHub
 - Learned to design test automation strategies focused on high-risk, user-critical business paths.
 - Practiced version control workflow by committing and pushing a complete project to GitHub
 
+## Recommendations
+
+Based on the test automation findings and script optimization, the following practices are recommended to maintain test suite reliability:
+
+- **Optimize Dynamic Waits:** Ensure explicit waits (WebDriverWait) are consistently applied across all modal overlays and SMS countdown timers to prevent intermittent timing issues during UI execution.
+- **Maintain Page Object Models (POM):** Keep web element locators modular and updated in their respective page classes to simplify script maintenance whenever UI layouts change.
+- **Test Data Management:** Implement reusable test data generators for phone numbers and payment details to ensure independent and clean test executions.
+
+
 ## Test Evidence
 
 #### Video Demonstration — Full automation Taxi Booking Flow
