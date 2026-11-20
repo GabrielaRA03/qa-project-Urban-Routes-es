@@ -25,7 +25,7 @@ Relying only on manual regression testing for multi-step booking flows is slow, 
 
 Python · Pytest · Selenium WebDriver · PyCharm · Git · GitHub
 
-## Results 
+## Results & Business Implications
 
 - **100% Pass Rate Across the Core Booking journey (Verified Result)**: Successfully validated that all sequential steps of the Comfort-tier taxi booking process execute without functional blockers, UI freezes, or data-loss errors.
 
